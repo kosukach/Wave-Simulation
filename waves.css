@@ -1,0 +1,77 @@
+html{
+  margin: 0;
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 4fr 1fr;
+}
+.input-container{
+  margin-top: 1em;
+}
+input{
+  border: none;
+  border-radius: 5px;
+  width: 110px;
+  text-align: center;
+  display: inline;
+}
+#interface{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: #9932ff;
+  display: grid;
+  grid-template-rows: 1fr;
+
+}
+
+#value-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.input-field{
+  width: 4rem;
+  margin: 0;
+  border-radius: 0;
+  height: 1.3em;
+}
+
+.decrement{
+  display: inline-block;
+  margin-right: -0.3em;
+  height: 1.4em;
+  background-color: white;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.increment{
+  display: inline-block;
+  margin-left: -0.3em;
+  height: 1.4em;
+  background-color: white;
+  border: 1px black;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.decrement:hover {
+  cursor: pointer;
+}
+
+.increment:hover {
+  cursor: pointer;
+}
+
+canvas{
+  height: 100%;
+  width: 100%;
+}
+
