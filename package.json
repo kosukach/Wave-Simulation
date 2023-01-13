@@ -14,7 +14,7 @@
   "author": "Konstantin Kanchev",
   "license": "GPL",
   "devDependencies": {
-    "electron": "^12.0.5",
+    "electron": "^22.0.2",
     "electron-packager": "^15.2.0"
   }
 }
